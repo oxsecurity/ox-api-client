@@ -5,6 +5,9 @@ import jsonpickle
 import sys
 import os.path
 
+# USE pip install python-dotenv to enable .env file
+from dotenv import load_dotenv
+
 # FUNCTIONS ------------------
 # Deserialize Function using JSONPICKLE
 def show_issues (response):
@@ -21,19 +24,17 @@ def show_issues (response):
 
 def writeJSON (fileN,response):
     fileN = sys.argv[1]+'_response' 
-    if os.path.exists(fileN+'.temp') == True:
+    if os.path.exists(fileN+'.temp') is True:
         os.remove(fileN+'.temp')
     writefile = open(fileN + '.temp', 'w')
     writefile.write(passresult)
     writefile.close()
     # WRITES AS TEMP FILE FIRST, THEN RENAMES WHEN COMPLETE (this enables easier integration from other processes 'waiting' for a file)
-    if os.path.exists(fileN+'.json') == True:
+    if os.path.exists(fileN+'.json') is True:
         os.remove(fileN+'.json')
     os.rename(fileN+'.temp',fileN+'.json')
 
 # BEGIN EXECUTION FLOW --------------------
-# USE pip install python-dotenv to enable .env file
-from dotenv import load_dotenv
 load_dotenv()
 apiurl = os.environ.get('oxUrl')
 key = os.environ.get('oxKey')
@@ -58,7 +59,7 @@ if usrAction == 'help':
 qFilename = './request/' + usrAction + '.query.json'
 vFilename = './request/' + usrAction + '.variables.json'
 
-if os.path.exists(qFilename) == False:
+if os.path.exists(qFilename) is False:
     print('Query filename '+qFilename+' does not exist. This file should contain the GraphQL query. The Variables should be located at '+vFilename+'.')
     exit()
 
@@ -97,4 +98,3 @@ try:
 
 except requests.exceptions.RequestException as error:
     print(f'Error: {error}')
-

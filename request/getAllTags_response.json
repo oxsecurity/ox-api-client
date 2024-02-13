@@ -1,0 +1,992 @@
+{
+  "data": {
+    "getAllTags": {
+      "tags": [
+        {
+          "tagId": "e3151b07-8427-4bff-ae26-60955a7af5ef",
+          "name": "measurement",
+          "displayName": "Measurement",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "69187e84-1a5e-4ee1-9f72-177c108043d2",
+          "name": "pnp",
+          "displayName": "Pnp",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "54c5e263-6f2e-4b86-8a12-9eb0b6b9d86e",
+          "name": "social",
+          "displayName": "Social",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "e9f908ee-495f-46d9-8703-784d453506df",
+          "name": "publisher",
+          "displayName": "Publisher",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "dc6dff25-6b7c-4847-b0e8-06b083323b11",
+          "name": "qa",
+          "displayName": "QA",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "3b858ca1-e071-41c8-a815-9203f25a658c",
+          "name": "corpit",
+          "displayName": "corpit",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "7b5277d5-5fe5-47d8-be81-d94cc19271e6",
+          "name": "pinnacle",
+          "displayName": "Pinnacle",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "9fb12a41-e458-47b1-b7b8-63d7443ece62",
+          "name": "devops",
+          "displayName": "devops",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "d13b8a4f-ce35-453f-8a16-75a02c76c554",
+          "name": "techops",
+          "displayName": "techops",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "0aee2321-c1b0-489b-b4a9-04073c81e8bf",
+          "name": "si",
+          "displayName": "SI",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "d999fa26-218c-4d84-bb67-f96a4ab14c91",
+          "name": "zohartest",
+          "displayName": "zoharTest",
+          "tagType": "simple",
+          "createdBy": "zohar@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "18f9c126-d370-42f8-b5b9-033be9629c11",
+          "name": "oxtestignore",
+          "displayName": "OXTESTIGNORE",
+          "tagType": "simple",
+          "createdBy": "zohar@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "8ba40913-35cc-41f3-bb95-03780354245e",
+          "name": "architecture",
+          "displayName": "architecture",
+          "tagType": "simple",
+          "createdBy": "seth.kirschner@doubleverify.com",
+          "isOxTag": false
+        },
+        {
+          "tagId": "b38f6df7-d5ed-44f5-822d-da19c34b9e81",
+          "name": "sandbox",
+          "displayName": "sandbox",
+          "tagType": "simple",
+          "createdBy": "test@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "c852d7b1-4e01-4cef-bf3d-b97ef7675875",
+          "name": "test",
+          "displayName": "test",
+          "tagType": "simple",
+          "createdBy": "api@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "95629516-49b4-4113-a222-e95cbf46204a",
+          "name": "programmatic",
+          "displayName": "programmatic",
+          "tagType": "simple",
+          "createdBy": "api@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "a78f0ca7-ec9a-42f1-9b34-e06862411d3c",
+          "name": "security",
+          "displayName": "security",
+          "tagType": "simple",
+          "createdBy": "api@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "9d5c1fc8-727b-4ffb-9eab-b406558d6c73",
+          "name": "terraform",
+          "displayName": "terraform",
+          "tagType": "simple",
+          "createdBy": "api@ox.security",
+          "isOxTag": false
+        },
+        {
+          "tagId": "ox_tag_1",
+          "name": "PII",
+          "displayName": "PII",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_2",
+          "name": "Login",
+          "displayName": "Login",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_3",
+          "name": "PaymentProcessing",
+          "displayName": "Payment",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_4",
+          "name": "MongoDBAtlas",
+          "displayName": "MongoDB Atlas",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_5",
+          "name": "MongoDB",
+          "displayName": "MongoDB",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_6",
+          "name": "AzureSQLDB",
+          "displayName": "Azure SQL DB",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_7",
+          "name": "MSSQL",
+          "displayName": "MSSQL",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_8",
+          "name": "PostgreSQL",
+          "displayName": "PostgreSQL",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_9",
+          "name": "SnowflakeDB",
+          "displayName": "SnowflakeDB",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_10",
+          "name": "OracleDB",
+          "displayName": "OracleDB",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_11",
+          "name": "MySQL",
+          "displayName": "MySQL",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_12",
+          "name": "InfluxDB",
+          "displayName": "InfluxDB",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_13",
+          "name": "Redis",
+          "displayName": "Redis",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_14",
+          "name": "Couchbase",
+          "displayName": "Couchbase",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_15",
+          "name": "Neo4j",
+          "displayName": "Neo4j",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_16",
+          "name": "Flask",
+          "displayName": "Flask",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_17",
+          "name": "Django",
+          "displayName": "Django",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_18",
+          "name": "Pyramid",
+          "displayName": "Pyramid",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_19",
+          "name": "FastAPI",
+          "displayName": "FastAPI",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_20",
+          "name": "Bottle",
+          "displayName": "Bottle",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_21",
+          "name": "Spring",
+          "displayName": "Spring",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_22",
+          "name": "SpringBoot",
+          "displayName": "Spring Boot",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_23",
+          "name": "Jakarta",
+          "displayName": "Jakarta",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_24",
+          "name": "Play",
+          "displayName": "Play",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_25",
+          "name": "Struts",
+          "displayName": "Struts",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_26",
+          "name": "Vertx",
+          "displayName": "Vertx",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_27",
+          "name": "Ktor",
+          "displayName": "Ktor",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_28",
+          "name": "Angular",
+          "displayName": "Angular",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_29",
+          "name": "Express.js",
+          "displayName": "Express.js",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_30",
+          "name": "React",
+          "displayName": "React",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_31",
+          "name": "Next.js",
+          "displayName": "Next.js",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_32",
+          "name": "Vue.js",
+          "displayName": "Vue.js",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_33",
+          "name": "NestJS",
+          "displayName": "NestJS",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_34",
+          "name": "Koa",
+          "displayName": "Koa",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_35",
+          "name": "Fastify",
+          "displayName": "Fastify",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_36",
+          "name": "Gin",
+          "displayName": "Gin",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_37",
+          "name": "Echo",
+          "displayName": "Echo",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_38",
+          "name": "Iris",
+          "displayName": "Iris",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_39",
+          "name": "Beego",
+          "displayName": "Beego",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_40",
+          "name": "Revel",
+          "displayName": "Revel",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_41",
+          "name": "Fiber",
+          "displayName": "Fiber",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_42",
+          "name": "Jira",
+          "displayName": "Jira",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_43",
+          "name": "Slack",
+          "displayName": "Slack",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_44",
+          "name": "Datadog",
+          "displayName": "Datadog",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_45",
+          "name": "Logz.io",
+          "displayName": "Logz.io",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_46",
+          "name": "Codecov",
+          "displayName": "Codecov",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_47",
+          "name": "Monday",
+          "displayName": "Monday",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_48",
+          "name": "Airtable",
+          "displayName": "Airtable",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_49",
+          "name": "Algolia",
+          "displayName": "Algolia",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_50",
+          "name": "Notion",
+          "displayName": "Notion",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_51",
+          "name": "Zendesk",
+          "displayName": "Zendesk",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_52",
+          "name": "Grafana",
+          "displayName": "Grafana",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_53",
+          "name": "Heroku",
+          "displayName": "Heroku",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_54",
+          "name": "Hubspot",
+          "displayName": "Hubspot",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_55",
+          "name": "Mailchimp",
+          "displayName": "Mailchimp",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_56",
+          "name": "Mailgun",
+          "displayName": "Mailgun",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_57",
+          "name": "Airbrake",
+          "displayName": "Airbrake",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_58",
+          "name": "Bitgo",
+          "displayName": "Bitgo",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_59",
+          "name": "Consul",
+          "displayName": "Consul",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_60",
+          "name": "Crashlytics",
+          "displayName": "Crashlytics",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_61",
+          "name": "Equifax",
+          "displayName": "Equifax",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_62",
+          "name": "Frontegg",
+          "displayName": "Frontegg",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_63",
+          "name": "GoogleMaps",
+          "displayName": "GoogleMaps",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_64",
+          "name": "Kanbanize",
+          "displayName": "Kanbanize",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_65",
+          "name": "NewRelic",
+          "displayName": "NewRelic",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_66",
+          "name": "OpenAI",
+          "displayName": "OpenAI",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_67",
+          "name": "OpsGenie",
+          "displayName": "OpsGenie",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_68",
+          "name": "ReCaptcha",
+          "displayName": "ReCaptcha",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_69",
+          "name": "Sendgrid",
+          "displayName": "Sendgrid",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_70",
+          "name": "Xignite",
+          "displayName": "Xignite",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_71",
+          "name": "Youtube",
+          "displayName": "Youtube",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_72",
+          "name": "Alibaba",
+          "displayName": "Alibaba",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_73",
+          "name": "Asana",
+          "displayName": "Asana",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_74",
+          "name": "DigitalOcean",
+          "displayName": "DigitalOcean",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_75",
+          "name": "Databricks",
+          "displayName": "Databricks",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_76",
+          "name": "Twitter",
+          "displayName": "Twitter",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_77",
+          "name": "Yandex",
+          "displayName": "Yandex",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_78",
+          "name": "Twocaptcha",
+          "displayName": "Twocaptcha",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_79",
+          "name": "Squarespace",
+          "displayName": "Squarespace",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_80",
+          "name": "Shippo",
+          "displayName": "Shippo",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_81",
+          "name": "RapidApi",
+          "displayName": "RapidApi",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_82",
+          "name": "Postman",
+          "displayName": "Postman",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_83",
+          "name": "Planetscale",
+          "displayName": "Planetscale",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_84",
+          "name": "Plaid",
+          "displayName": "Plaid",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_85",
+          "name": "Linkedin",
+          "displayName": "Linkedin",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_86",
+          "name": "Intercom",
+          "displayName": "Intercom",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_87",
+          "name": "Freshbooks",
+          "displayName": "Freshbooks",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_88",
+          "name": "Figma",
+          "displayName": "Figma",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_89",
+          "name": "Docusign",
+          "displayName": "Docusign",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_90",
+          "name": "Dropbox",
+          "displayName": "Dropbox",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_91",
+          "name": "Discord",
+          "displayName": "Discord",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_92",
+          "name": "Internet Exposed - Indirect",
+          "displayName": "Internet Exposed - Indirect",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_93",
+          "name": "Internet Exposed - Direct",
+          "displayName": "Internet Exposed - Direct",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_94",
+          "name": "Published Package",
+          "displayName": "Published Package",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_95",
+          "name": "Ansible",
+          "displayName": "Ansible",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_96",
+          "name": "Chef",
+          "displayName": "Chef",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_97",
+          "name": "Puppet",
+          "displayName": "Puppet",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_98",
+          "name": "Terraform",
+          "displayName": "Terraform",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_99",
+          "name": "CloudFormation",
+          "displayName": "Cloud Formation",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_100",
+          "name": "Helm",
+          "displayName": "Helm",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_101",
+          "name": "Pulumi",
+          "displayName": "Pulumi",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_102",
+          "name": "Argo CD",
+          "displayName": "Argo CD",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_103",
+          "name": "Karpenter",
+          "displayName": "Karpenter",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_104",
+          "name": "ARN",
+          "displayName": "ARN",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        },
+        {
+          "tagId": "ox_tag_105",
+          "name": "SaltStack",
+          "displayName": "SaltStack",
+          "tagType": "simple",
+          "createdBy": "support@ox.security",
+          "isOxTag": true
+        }
+      ]
+    }
+  }
+}
